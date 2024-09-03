@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('Images/BackgroundImage.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #ff5252;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.products h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-item h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  font-size: 1em;
+  color: #333;
+}
+
+.order-form {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.order-form h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.order-form form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.order-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-form .btn {
+  background-color: #ff5252;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
