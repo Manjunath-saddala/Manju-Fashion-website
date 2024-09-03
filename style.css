@@ -34,7 +34,7 @@ header nav ul li a {
 }
 
 .hero {
-  background: url('Images/BackgroundImage.jpg') no-repeat center center/cover;
+  background: url('BackgroundImage.jpg') no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 100px 20px;
